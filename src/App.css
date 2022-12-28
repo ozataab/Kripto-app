@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+
+.container {
+  width: 100%;
+  height: 200px;
+ background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container input {
+  width: 50%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+}
+.card{
+  margin:10px;
+}
+.coin {
+  width: 396px;
+  height: 320px;
+  background-color: #333;
+  color: white;
+  float: left;
+
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+.coin img {
+  height: 100px;
+}
